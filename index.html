@@ -9,36 +9,32 @@
     <body>
         <header>
 
-            <h1>Select the Quiz</h1>
-            <nav>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary">
-                <input type="radio" name="options" id="option1" autocomplete="off" checked> Coding Quiz
-            </label>
+            <h1>Coding Quiz!</h1>
             
         </header>
         
+        <main>
         <section class="container" id="container1">
             <div>
-            <button type="button" class="btn btn-light high-scores-btn">High Scores</button>
+            <button type="button" class="btn btn-danger high-scores-btn">High Scores</button>
             </div>
             <div>
-            <button type="button" class="btn btn-light reset-btn">Reset</button>
+            <button type="button" class="btn btn-danger reset-btn">Reset quiz</button>
             </div>
             <div>
             <a class="timer-count">--</a>
-            <a>secs</a>
+            <a>secods remaining</a>
             </div>
         </section>
         
-        <main>
+        <!-- <main> -->
             <section class="container d-none" id="container2">
             <h2 class="question">Question</h2>
             <div class="btn-group-vertical">
-                <button type="button" class="btn btn-outline-primary option_a" id="opta">A</button>
-                <button type="button" class="btn btn-outline-primary option_b" id="optb">B</button>
-                <button type="button" class="btn btn-outline-primary option_c" id="optc">C</button>
-                <button type="button" class="btn btn-outline-primary option_d" id="optd">D</button>
+                <button type="button" class="btn btn-outline-danger option_a" id="opta">A</button>
+                <button type="button" class="btn btn-outline-danger option_b" id="optb">B</button>
+                <button type="button" class="btn btn-outline-danger option_c" id="optc">C</button>
+                <button type="button" class="btn btn-outline-danger option_d" id="optd">D</button>
             </div>
         
             </section>
@@ -56,9 +52,8 @@
             </div>    
             <section class="container" id="container3">
             <div class="user_score d-none">
-                <h2>Congratulations!</h2>
-                <a>Your score: </a>
-                <a class="final_score">time remaining</a>
+                <h2>Your score: </h2>
+                <p class="final_score">time left</p>
             </div>
     
             <div class="input-group mb-3 d-none">
@@ -68,8 +63,8 @@
                 </div>
             </div>
             <div class="Start">
-                <p>Answer the following questions within the time limit!</p>
-                <p>Keep in mind that incorrect answers will set you back 10 seconds!</p>
+                <h3>Answer the following questions within the time limit!</h3>
+                <h3>Incorrect answers will set you back 10 seconds!</h3>
                 <button type="button" class="btn btn-danger btn-lg btn-block StartQ">Start Quiz</button>
             </div>
     
@@ -79,7 +74,7 @@
                 <div class="card-body">
                     <h2 class="card-title">High Scores</h2>
                     <ul id="score-list"></ul>
-                    <a href="#" class="btn btn-primary play_again">Play Again</a>
+                    <a href="#" class="btn btn-danger play_again">Play Again</a>
                 </div>
                 <div class="card-footer text-muted"></div>
                 </div>

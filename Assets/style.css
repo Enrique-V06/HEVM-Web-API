@@ -1,0 +1,114 @@
+/* Set default styles for the whole page */
+* {
+    box-sizing: border-box;
+    }
+      /* This helps to keep the color palette consistent and makes it easy to change the colors globally by just modifying the variable's value. */
+    :root{
+        --color1: #3716f1;   
+        --color2: rgb(31 36 36);
+        --color3: #e47676;
+        --color4: #dc3545;
+    }
+    
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        color: var(--color2);
+    }
+    
+        a {
+            color: #333;
+            text-decoration: unset;
+        }
+    
+        /* Style the header */
+    header {
+        color: var(--color4);
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+    /* inside the header */
+    header h1 {
+        margin: 0;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .container{
+        color: var(--color2);
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    #container1.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    #container2.container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .results{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .correct-mark{
+        color: green;
+    }
+    .incorrect-mark{
+        color: red;
+    }
+    
+    #container3.container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .user_score{
+        color: #5612f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    
+    h4{
+        display: flex;
+        font-style:italic;
+        color: var(--color4);
+        align-items: center;
+    }
+    
+    /* .btn-group-lg>.btn, .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 4rem;
+        border-radius: 1rem;
+    } */
+    
+    div.Start {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    div.btn-group-toggle{
+        display: flex;
+        align-items: center;   
+    }

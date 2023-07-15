@@ -2,9 +2,7 @@
 
 ## Description
 
-This application was built in order to help prepare vacations better depending on the weather forecast of the place the traveler wants to visit.
-I made this application to help travelers check the current weather and the forecast for the following 5 days so they can prepare in advance dependeing on how the weather will be during their visit to the selected city.
-This was acheived by calling the OpenWeatherMap API (https://openweathermap.org/api) and using the different type of calls you can make in order to retrieve the coordinates of the searched place, and then obtaining the weather and forecast for the next 5 days.
+This application was built in order to help review basic coding knowledge about coding, helping you know where to improve and study more.
 
 ## Usage
 

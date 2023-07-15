@@ -8,12 +8,12 @@ var option_d = document.querySelector(".option_d");
 var correctans = document.querySelector(".correct");
 var incorrectans = document.querySelector(".incorrect");
 var array_qstns = ["Commonly used data types DO Not Include: ","The condition in an if / else statement is enclosed with ","Arrays in JavaScript can be used to store ","String values must be enclosed within _______ when being assigned to variables. ","A very useful tool used during development and debugging for printing content to the debugger is: " ];
-var array_opt_a = ["1. strings ","1. quotes ","1. numbers and strings ","1. commas ","1. JavaScript"];
-var array_opt_b = ["2. booleans ","2. curly brackets ","2. Other arrays ","2. curly brackets ","2. terminal/bash "];
-var array_opt_c = ["3. alerts ","3. parenthesis ","3. booleans ","3. quotes ","3. for loops "];
-var array_opt_d = ["4. numbers ","4. square brackets ","4. all of the above ","4. parenthesis ","4. console.log "];
-var correct_answer = ["c","c","d","c","d"];
-var correct_answer2 = [];
+var array_opt_a = ["1. strings ","1. square brackets ","1. numbers and strings ","1. commas ","1. console.log"];
+var array_opt_b = ["2. booleans ","2. parenthesis ","2. Other arrays ","2. curly brackets ","2. terminal/bash "];
+var array_opt_c = ["3. alerts ","3. curly brackets ","3. booleans ","3. quotes ","3. for loops "];
+var array_opt_d = ["4. numbers ","4. quotes ","4. all of the above ","4. parenthesis ","4. GUI "];
+var correct_answer = ["c","b","d","c","a"];
+
 
 //vars for timer and local register
 var qstn_num = 0;

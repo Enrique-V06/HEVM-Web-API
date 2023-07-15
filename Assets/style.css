@@ -4,8 +4,7 @@
     }
       /* This helps to keep the color palette consistent and makes it easy to change the colors globally by just modifying the variable's value. */
     :root{
-        --color1: #3716f1;   
-        --color2: rgb(31 36 36);
+        --color1: rgb(31 36 36);
         --color3: #e47676;
         --color4: #dc3545;
     }
@@ -14,7 +13,7 @@
         font-family: sans-serif;
         margin: 0;
         padding: 0;
-        color: var(--color2);
+        color: var(--color1);
     }
     
         a {
@@ -39,7 +38,7 @@
     }
     
     .container{
-        color: var(--color2);
+        color: var(--color1);
         display: flex;
         flex-direction: column;
         justify-content:space-evenly;
@@ -96,11 +95,6 @@
         align-items: center;
     }
     
-    /* .btn-group-lg>.btn, .btn-lg {
-        padding: 0.5rem 1rem;
-        font-size: 4rem;
-        border-radius: 1rem;
-    } */
     
     div.Start {
         display: flex;
